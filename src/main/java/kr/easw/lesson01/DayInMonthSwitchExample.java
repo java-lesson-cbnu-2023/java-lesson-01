@@ -6,9 +6,7 @@ import java.util.Scanner;
 public class DayInMonthSwitchExample {
     public static void main(String[] args) {
         System.out.println("일수를 알고 싶은 달을 입력하세요 : ");
-
         Scanner scanner = new Scanner(System.in);
-
         try {
             switch (scanner.nextInt()) {
                 // switch문은 "case 데이터:" 혹은 "default:"로 구성됩니다.
